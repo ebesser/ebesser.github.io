@@ -1,0 +1,107 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+
+
+body {
+  background-color: #e4e4e4;
+  font-family: "Arial Narrow", Arial, sans-serif;
+}
+
+.about {
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 25px;
+  margin: 20px 0 10px 0;
+  color: black;
+}
+
+#logo {
+  text-align: center;
+  margin-top: 50px;
+}
+#intro {
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  margin: 30px 10% 0 10%;
+}
+
+.resume {
+  width: 100px;
+  height: 100px;
+}
+
+.resume_text {
+  color: black;
+  text-decoration: none;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.resume_text:hover {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+}
+#jqc_menu li {
+  list-style-type: none;
+  display: inline;
+  font-size: 40px;
+  margin: auto;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#menu {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logos {
+ margin-top: 20px;
+ }
+
+ .logo_link {
+  color:inherit;
+  text-decoration: none;
+ }
+
+ i {
+  margin: 0 10px 0 10px;
+  text-decoration: none;
+ }
+
+ i:hover {
+  color: red;
+ }
+
+#jqc_menu li {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+#jqc_menu li:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#link {
+  color: black;
+}
+
+#link:hover {
+  color: red;
+}
+
+#jqc_menu li:hover{ color: black; cursor: pointer; font-weight: bold; text-decoration: none;}
+#jqc_loading{ text-align: center; visibility: hidden; }
+#jqc_content {
+text-align: center;
+  /*text-transform: uppercase;*/
+}
