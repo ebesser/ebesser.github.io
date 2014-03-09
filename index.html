@@ -1,40 +1,171 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>Evan Besser</title>
-  <link rel="icon" type="image/ico" href="images/logo.png"/>
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
-	<script src='/javascripts/jquery.js'></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script>
-	<script src='/javascripts/app.js'></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Evan Besser</title>
+    <link rel="shortcut icon" type="image/png" href="img/logo.png"/>
+    <!-- Bootstrap Core CSS -->
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom Theme CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <script language="javascript" type="text/javascript" src="js/typing.js"></script>
+
 </head>
-<body>
 
-<div id="logo">
-    <a href="index.html"><img src="images/logo.png"></a>
-  </div>
-<div id='intro'>
-  Hi! My name is Evan Besser. I am a full-stack web developer who is passionate about statups, innovation, and social ventures. Check out my portfolio and feel free to reach out via <a href="mailto:evanbesser@gmail.com" id="link">email</a> or <a href="http://www.linkedin.com/in/evanbesser/" target="_blank" id="link">LinkedIn</a>
-</div>
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">
+                    <img class='logo' src="img/logo2.png">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Projects</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <section class="intro">
+        <div class="intro-body col-md-12">
+            <h1 id='my_name' style="font-size: 100px; margin-top: 15%; color: white; text-shadow: 1px 1px 1px #000;">Evan Besser</h1>
+            <h2 id='my_info' style="font-size: 30px; color: white; text-shadow: 1px 1px 1px #000;">Full Stack Developer I Startup Junkie I Dog Owner</h2>
 
 
-<div id="menu">
-  <ul id="jqc_menu">
-    <li id="1">About</li>
-    <li id="2">Portfolio</li>
-    <li id="3">Contact</li>
-  </ul>
-</div>
-
-<div id="jqc_content">
-  </div>
-  <div id="jqc_loading">
-  <h2>LOADING...</h2>
-</div>
+    </section>
 
 
+        <section id="about" class="container content-section text-center">
+
+            <h2>About Matthew</h2>
+            <p>Matthew recently compelted a 12 week intensive Web Development Course at General Assembly. He had previously been working in Business Development for a large technology serices consulting firm and where realized he liked building things more than talking about them</p>
+
+            <h2> He Knows </h2>
+            <ul class="list-inline">
+                <li class="btn btn-lg"> Ruby</li>
+                <li class="btn btn-lg"> Rails </li>
+                <li class="btn btn-lg"> Sinatra </li>
+                <li class="btn btn-lg"> JavaScript</li>
+                <li class="btn btn-lg"> jQuery </li>
+                <li class="btn btn-lg"> Backbone </li>
+                <li class="btn btn-lg"> TDD </li>
+                <li class="btn btn-lg"> Hanging Out </li>
+
+            </ul>
+
+        </section>
+
+        <section id="portfolio" class="container content-section text-center col-lg-12">
+            <div class="row">
+                <div id='projects' class="col-lg-4">
+                    <h4>Adoptir</h4>
+                    <p>Discover New Startups. Reviews The Ones You've Tried. Endose The Ones You Love. (powered by angellist.com)</p>
+                    <ul class="list-inline banner-social-buttons">
+                    <li><a href="https://github.com/Plummat/firstrailsproject" class="btn btn-default btn-lg">Code</a></li>
+                    </ul>
+                    </br>
+                </div>
 
 
-</body>
-</html>
+                <div class="row">
+                    <div id='projects'class="col-lg-4">
+                        <h4>Tinyplanet.fm</h4>
+                        <p>Tinyplanet.fm is a local music discovery tool that lets you experience music scenes throughout the country.</p>
+                        <ul class="list-inline banner-social-buttons">
+                        <li><a href="http://salty-headland-7742.herokuapp.com" class="btn btn-default btn-lg"> Demo </a> </li>
+                        <li><a href="https://github.com/Plummat/gaprojecttwo" class="btn btn-default btn-lg">Code</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="row">
+                    <div id='projects'class="col-lg-4">
+                        <h4>Tinyplanet.fm</h4>
+                        <p>Tinyplanet.fm is a local music discovery tool that lets you experience music scenes throughout the country.</p>
+                        <ul class="list-inline banner-social-buttons">
+                        <li><a href="http://salty-headland-7742.herokuapp.com" class="btn btn-default btn-lg"> Demo </a> </li>
+                        <li><a href="https://github.com/Plummat/gaprojecttwo" class="btn btn-default btn-lg">Code</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="contact" class="container content-section text-center col-lg-12">
+            <div class="row">
+                    <h2>Contact Me</h2>
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                           <a href="https://github.com/ebesser" target="_blank" class="btn btn-default2 btn-lg">
+                                <i class="fa fa-github-alt fa-4x"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                           <a href="mailto:evanbesser@gmail.com" target="_blank" class="btn btn-default2 btn-lg">
+                                <i class="fa fa-envelope-o fa-4x"></i>
+                            </a>
+                        </li>
+
+                           <li>
+                           <a href="http://www.linkedin.com/in/evanbesser" target="_blank" class="btn btn-default2 btn-lg">
+                                <i class="fa fa-linkedin fa-4x"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </br></br>
+                <div class=>
+                    <a href="img/resume.pdf" target="_blank">
+                        <i class="fa fa-file-text-o fa-5x"></i>
+                        <h4>Download My Resume</h4>
+                    </a>
+                </div>
+        </section>
+
+        <!-- Core JavaScript Files -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+
+        <!-- Custom  JavaScript -->
+        <script src="js/plumsite.js"></script>
+
+    </body>
+
+    </html>
