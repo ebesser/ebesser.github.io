@@ -52,11 +52,7 @@ p {
     }      
 
 
-    #about {
-    height: 100%;
-    width: 100%;
 
-    }
 }
 
 a {
@@ -260,19 +256,12 @@ a:focus {
     }
 }
 
-.content-section {
-    padding: 100px;
-}
 
 
 
 
-@media(min-width:767px) {
-    .content-section {
-        padding: 150px;
-    }
 
-}
+
 
 .btn {
     text-transform: uppercase;
@@ -378,11 +367,6 @@ body {
     color: white;
 }
 
-.tech_ul {
-    width: 20%;
-    text-align: left;
-    float: left;
-}
 
 .tech_ul p {
   
@@ -419,4 +403,4 @@ body {
     text-decoration: none;
 }
 
-
+#column{transition: all 0.9s ease 0s;-moz-transition: all 0.9s ease 0s;-webkit-transition: all 0.9s ease 0s;-o-transition: all 0.9s ease 0s;}

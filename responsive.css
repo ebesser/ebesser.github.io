@@ -1,0 +1,202 @@
+/* Default Layout: 992px.  */
+#column  {width:800px;margin: 0px auto;}
+#col_02 h1 {
+color: #FFFFFF;
+font-size: 75px;
+padding-top: 15%;
+text-shadow: 1px 1px 1px #000000;
+}
+#col_02 h2{color: #FFFFFF;
+font-size: 22px;
+text-shadow: 1px 1px 1px #000000;}
+#about h2{font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-weight: 700;
+letter-spacing: 1px;
+text-transform: uppercase;
+margin-top: 70px;}
+#projects {
+  color: #FFFFFF;
+  float: left;
+  width: 259px;
+}
+#projects p{font-size: 20px;
+line-height: 1.6;
+margin: 0 0 35px;}
+#column h2{font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-weight: 700;
+letter-spacing: 1px;
+margin: 54px 0 46px;
+text-transform: uppercase;}
+#contact h2{font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-weight: 700;
+letter-spacing: 1px;
+margin: 25 0 35px;
+text-transform: uppercase;}
+.tech_ul {
+    width: 20%;
+    text-align: left;
+    float: left;
+}
+#contact h2 {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+#column  {width:300px;margin: 0px auto;}
+#col_02 h1 {
+color: #FFFFFF;
+font-size: 45px;
+padding-top: 15%;
+text-shadow: 1px 1px 1px #000000;
+}
+#col_02 h2 {
+color: #FFFFFF;
+font-size: 14px;
+text-shadow: 1px 1px 1px #000000;
+}
+.tech_ul {
+    width: 20%;
+    text-align: left;
+    float: none;margin:0px auto
+}
+#projects {
+  color: #FFFFFF;
+  float: none;
+  margin: 0 auto;
+  width: 259px;
+}
+#contact h2 {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+#column  {width:450px;margin: 0px auto;}
+
+
+}
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+#column {width:750px;margin: 0px auto;}
+#col_02 h1 {
+color: #FFFFFF;
+font-size: 65px;
+padding-top: 15%;
+text-shadow: 1px 1px 1px #000000;
+}
+#col_02 h2{color: #FFFFFF;
+font-size: 21px;
+text-shadow: 1px 1px 1px #000000;}
+.content-section{width:750px;margin: 0px auto;}
+#projects {
+  color: #FFFFFF;
+  float: left;
+  width: 250px;
+}
+#projects p{font-size: 16px;
+line-height: 1.6;
+margin: 0 0 35px;}
+#column h2{font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-weight: 700;
+letter-spacing: 1px;
+margin: 54px 0 46px;
+text-transform: uppercase;}
+#about h2{font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-weight: 700;
+letter-spacing: 1px;
+margin: 54 0 45px;
+text-transform: uppercase;}
+#contact h2{font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-weight: 700;
+letter-spacing: 1px;
+margin-top: 60px;
+text-transform: uppercase;}
+.tech_ul {
+    width: 20%;
+    text-align: left;
+    float: left;
+}
+
+
+}
+
+
+/* This CSS for Large Devices */
+@media (min-width: 1200px) {
+#column {width: 1170px;margin: 0px auto;}
+#column h2{font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-weight: 700;
+letter-spacing: 1px;
+margin: 50px 0 35px;
+text-transform: uppercase;}
+#about h2{font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-weight: 700;
+letter-spacing: 1px;
+margin: 0 0 35px;
+text-transform: uppercase;}
+.intro {height: 100%;
+width: 100%;}
+#col_02 h1{color: #FFFFFF;
+font-size: 100px;
+margin-top: 0%;
+text-shadow: 1px 1px 1px #000000;}
+#col_02 h2{color: #FFFFFF;
+font-size: 30px;
+text-shadow: 1px 1px 1px #000000;}
+.navbar {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border-bottom: 0 none;
+  letter-spacing: 1px;
+  padding: 20px 0;
+  transition: background 0.5s ease-in-out 0s, padding 0.5s ease-in-out 0s;
+}
+.navbar {
+  background-color: #000000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+    .content-section {
+        padding: 100px;
+    }
+
+#about {
+    height: 100%;
+    width: 100%;
+padding: 100px;
+    }
+#projects {
+  color: #FFFFFF;
+  float: left;
+  width: 400px;
+}
+#projects p{font-size: 20px;
+line-height: 1.6;
+margin: 0 0 35px;}
+#contact h2{font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-weight: 700;
+letter-spacing: 1px;
+margin: 0 0 35px;
+text-transform: uppercase;}
+.tech_ul {
+    width: 20%;
+    text-align: left;
+    float: left;
+}
+
+}
